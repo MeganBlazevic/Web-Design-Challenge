@@ -3,6 +3,8 @@
 This challenge involved us using our WeatherPy data (or the data set that was provided to us). 
 We were then asked to use HTML and CSS to create a dashboard to do an analysis for weather compared to latitude. 
 
+My link is https://meganblazevic.github.io/Web-Design-Challenge/
+
 ## Website Requirements
 Several Seperate Pages are rquired
 - Index Page (home screen)
