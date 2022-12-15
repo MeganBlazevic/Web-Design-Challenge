@@ -1,0 +1,164 @@
+/* fontstyling for text*/
+p{
+  font-family: Georgia;
+  font-size: large;
+  padding:10px;
+}
+
+/* body background*/
+body{
+  background-color: goldenrod;
+}
+
+.col-md-12{
+  background-color: goldenrod;
+  padding-top: 20px;
+  padding-bottom:40px;
+} 
+
+
+/* header styling*/
+h1, h2, h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: maroon;
+  font-family: Georgia;
+  padding: 20px;
+}
+  
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-align:left;
+}
+  
+h2{
+  font-size: 24px;
+  font-weight: bold;
+  text-align:left;
+}
+  
+h3{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+  
+p{
+  color: black;
+  text-align:left;
+}
+  
+/* image styling*/
+.img-thumbnail{
+  padding:15px;
+  border: none;
+}
+
+.img {
+  max-width: 80%
+}   
+
+.imgsel {
+  border: maroon 2px solid;
+}
+
+.pic{
+  border: 3px dotted darkslategrey;
+}
+ 
+/* navbar styling */
+.navbar{
+    position: absolute;
+    right: 30px;
+}
+  
+.navbar a{
+  background-color:maroon;
+  color: goldenrod
+}
+  
+.body {
+  width: 100%;
+  min-height:100%;
+  background-color: goldenrod
+}
+  
+.col {
+  width: 100%;
+} 
+  
+.homebtn{
+  background-color: maroon;
+  color: goldenrod; 
+  z-index:1;
+}
+  
+.homebtn a{
+  width: 110px;
+  background: maroon;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: goldenrod
+  text-align: center;
+  display: block;
+  padding: 14px;
+  margin: 0px 0px 0px 40px;
+}
+
+/* content styling*/
+.content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.content.bg-white {
+  margin-top: 15px;
+  background-color: maroon;
+  padding-top:  25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+}
+
+.divtop{
+  background-color: maroon;
+  z-index:2;
+}
+  
+.divbdy{
+  background-color: goldenrod;
+  z-index:1;
+}
+  
+.divtable{
+  text-align:center;
+  background-color: goldenrod;
+  z-index:1;
+}
+  
+.divbtm {
+  width:100%;
+  bottom:0;
+  background-color: goldenrod;
+  z-index:0;
+  font-size: 12px;
+  color: goldenrod;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+} 
+
+/* Adjustments made for a smaller screen*/
+@media(max-width:767px){
+  .navbar.bg-light{
+    background-color: maroon!important;    
+  }
+
+  .navbar-collapse{
+    background-color: maroon;
+  }
+  .navbar{
+    padding:inherit;
+  }
+} 
